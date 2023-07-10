@@ -21,8 +21,170 @@
 }
 .banner-container{
     height: 100vh;
-    background-image: url('./asset/image/background.jpg');
+    background-image: url('./asset/image/background.jpg'), linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.4));
+    background-blend-mode: overlay;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.banner-title{
+    color: brown;
+}
+.title{
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+}
+.description{
+    color: white;
+    padding: 10px;
+    width: 50%;
+    margin: auto;
+}
+.btn{
+    margin-top: 10px;
+    background-color: red;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+}
+.btn-hire{
+    margin-top: 10px;
+    padding: 12px 20px;
+    border: none;
+}
+.service{
+    height: 100vh;
+    background-image: url('./asset/image/footer-bg.png'), linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0.25));
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 25px;
+    color: white;
+}
+.service-list{
+    margin-top: 10px;
+    background-color: red;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+}
+.service-description{
+    width: 50%;
+}
+.icon-box{
+    width: 70px;
+    margin-bottom: 20px;
+}
+.box-img{
+    text-align: center;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    width: 150px;
+    height: 150px;
+    padding: 50px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+.left-box{
+    display: flex;
+    gap:3px;
+    margin-top: 5px;
+}
+.right-box{
+    display: flex;
+    gap: 3px;
+}
+.profile-pic{
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+}
+.profile-container{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.left-pro-pic{
+    margin-top: 5px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    border-right: 2px solid red;
+    padding-right: 10px;
+}
+.appointment-container{
+    width: 70%;
+    margin: auto;
+    padding: 20px;
+    margin-top: -30px;
+    display: flex;
+    background-color: orangered;
+    border-radius: 10px;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+.phone-call{
+    display: flex;
+    align-items: center;
+    border-right: 5px solid white;
+}
+.appointment-description{
+    padding-left: 5px;
+    font-size: 25px;
+}
+.appointment-title{
+    padding-right: 10px;
+  
+}
+.number{
+    font-size: 20px;
+}
+.blog-title{
+    font-size: 50px;
+    color: black;
+    text-align: center;
+    margin: 20px;
+}
+.blog-description{
+    text-align: center;
+    font-size: 25px;
+}
+.blog-container{
+    width: 90%;
+    margin: auto;
+}
+.cards{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.card{
+    height: 500px;
+    width: 350px;
+    background-color: white;
+    border-radius: 10px solid gray;
+}
+.card-img{
+    width: 100%;
+    border-radius: 10px;
+}
+.card-title{
+    font-size: 30px;
+}
+.card-description{
+    font-size: 20px;
+}
+.social-links{
+    display: flex;
 }
